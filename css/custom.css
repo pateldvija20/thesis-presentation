@@ -1,0 +1,66 @@
+/*
+ * custom.css
+ * Override Reveal.js defaults here.
+ * Replace placeholder styles once Figma designs are finalized.
+ */
+
+/* ─── Placeholder slide styling ──────────────────────────────────────────── */
+
+.slide-placeholder {
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  padding: 2rem 3rem;
+  background: #fafafa;
+  text-align: left;
+}
+
+.slide-label {
+  font-size: 0.6em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #999;
+  margin-bottom: 0.5rem;
+}
+
+/* ─── Typography ──────────────────────────────────────────────────────────── */
+
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  /* Update font-family once design tokens are available */
+  font-family: inherit;
+}
+
+.reveal .subtitle {
+  color: #666;
+  font-size: 0.75em;
+}
+
+/* ─── Layout helpers ─────────────────────────────────────────────────────── */
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* ─── Design tokens (fill in from Figma) ────────────────────────────────── */
+:root {
+  --color-primary: #1a1a2e;
+  --color-accent:  #e94560;
+  --color-bg:      #ffffff;
+  --color-text:    #1a1a2e;
+
+  --font-heading:  inherit;
+  --font-body:     inherit;
+}

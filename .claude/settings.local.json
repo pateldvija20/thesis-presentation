@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "mcp__figma__get_metadata",
-      "mcp__figma__get_screenshot"
+      "mcp__figma__get_screenshot",
+      "Bash(open:*)",
+      "Bash(git:*)"
     ]
   }
 }

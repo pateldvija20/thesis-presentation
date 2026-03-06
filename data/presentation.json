@@ -1,0 +1,17 @@
+{
+  "title": "Thesis Title",
+  "author": "Your Name",
+  "institution": "University Name",
+  "department": "Department Name",
+  "year": 2026,
+  "slides": [
+    { "id": "01-title",        "title": "Title",        "status": "placeholder" },
+    { "id": "02-introduction", "title": "Introduction", "status": "placeholder" },
+    { "id": "03-related-work", "title": "Related Work", "status": "placeholder" },
+    { "id": "04-methodology",  "title": "Methodology",  "status": "placeholder" },
+    { "id": "05-results",      "title": "Results",      "status": "placeholder" },
+    { "id": "06-discussion",   "title": "Discussion",   "status": "placeholder" },
+    { "id": "07-conclusion",   "title": "Conclusion",   "status": "placeholder" },
+    { "id": "08-qna",          "title": "Q&A",          "status": "placeholder" }
+  ]
+}
